@@ -1,7 +1,6 @@
 ﻿// index.js
 
 // Response for Uptime Robot and GAS
-require('dotenv').config();
 const express = require('express');
 const { isLocked, createLock, clearLockOnExit } = require('./lock'); // 多重起動防止ロック
 
