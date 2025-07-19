@@ -1,7 +1,6 @@
 ﻿const { Client, GatewayIntentBits, Partials, ActivityType } = require('discord.js');
 const fetch = require('node-fetch'); // node-fetch@2 を使用
 const emoji = require('node-emoji');
-require('dotenv').config();
 
 const client = new Client({
     intents: [
